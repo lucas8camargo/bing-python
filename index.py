@@ -32,7 +32,7 @@ def realizar_pesquisas(termos, repeticoes, perfil_path):
                 barra_pesquisa.send_keys(Keys.RETURN)
 
                 # Aguardar alguns segundos para contabilizar os pontos
-                time.sleep(4)
+                time.sleep(5)
     finally:
         # Fecha o navegador
         driver.quit()
@@ -40,36 +40,26 @@ def realizar_pesquisas(termos, repeticoes, perfil_path):
 # Lista com os termos para pesquisa
 # A quntidade de termos pode variar dependendo dos pontos ganhos para cada pesquisa
 termos_para_pesquisa = [
-    "receitas saudáveis",
-    "alimentação saudável",
-    "dieta fitness",
-    "cardápio fitness",
-    "receitas low carb",
-    "receitas veganas",
-    "receitas vegetarianas",
-    "sucos detox",
-    "chá para emagrecer",
-    "alimentos funcionais",
-    "receitas para ganhar massa muscular",
-    "treino em casa",
-    "exercícios para emagrecer",
-    "rotina de treino",
-    "alimentação para atletas",
-    "receitas para o café da manhã",
-    "receitas para o almoço",
-    "receitas para o jantar",
-    "lanches saudáveis",
-    "receitas light",
-    "receitas com frango",
-    "receitas com peixe",
-    "receitas com legumes",
-    "receitas com frutas",
-    "receitas para celíacos",
-    "receitas para diabéticos",
-    "receitas para hipertensos",
-    "suplementos alimentares",
-    "nutrição esportiva",
-    "vida saudável"
+    "python tratamento de erros try except",
+    "python gerenciamento de pacotes pip venv",
+    "python expressoes regulares regex",
+    "python manipulacao de arquivos csv json txt",
+    "python sockets programacao de redes",
+    "python multithreading e multiprocessing",
+    "python programacao orientada a objetos poo",
+    "python design patterns",
+    "python clean code",
+    "python refatoracao de codigo",
+    "python profiling de codigo",
+    "python microframeworks bottle falcon",
+    "python frameworks assincronos asyncio tornado",
+    "python bancos de dados sql alchemy",
+    "python orm object relational mapping",
+    "python deploy em heroku pythonanywhere",
+    "python docker containers",
+    "python kubernetes",
+    "python serverless aws lambda azure functions",
+    "python desenvolvimento mobile kivy flutter"
 ]
 
 # Define a quantidade de vezes que o loop de pesquisa será executado
