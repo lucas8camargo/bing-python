@@ -40,26 +40,26 @@ def realizar_pesquisas(termos, repeticoes, perfil_path):
 # Lista com os termos para pesquisa
 # A quntidade de termos pode variar dependendo dos pontos ganhos para cada pesquisa
 termos_para_pesquisa = [
-    "python tratamento de erros try except",
-    "python gerenciamento de pacotes pip venv",
-    "python expressoes regulares regex",
-    "python manipulacao de arquivos csv json txt",
-    "python sockets programacao de redes",
-    "python multithreading e multiprocessing",
-    "python programacao orientada a objetos poo",
-    "python design patterns",
-    "python clean code",
-    "python refatoracao de codigo",
-    "python profiling de codigo",
-    "python microframeworks bottle falcon",
-    "python frameworks assincronos asyncio tornado",
-    "python bancos de dados sql alchemy",
-    "python orm object relational mapping",
-    "python deploy em heroku pythonanywhere",
-    "python docker containers",
-    "python kubernetes",
-    "python serverless aws lambda azure functions",
-    "python desenvolvimento mobile kivy flutter"
+    # Fundamentos
+    "sintaxe python", "tipos de dados python", "estruturas de controle python", "funções python", "módulos python",
+    "pacotes python", "orientação a objetos python", "herança python", "polimorfismo python", "exceções python",
+
+    # Estruturas de Dados
+    "listas python", "tuplas python", "dicionários python", "conjuntos python", "pilhas python", "filas python",
+
+    # Bibliotecas Essenciais
+    "pandas python", "numpy python", "matplotlib python", "seaborn python", "scikit-learn python",
+
+    # Ciência de Dados e Machine Learning
+    "regressão linear python", "árvore de decisão python", "random forest python", "clustering python", "neural networks python",
+    "deep learning python", "tensorflow python", "pytorch python", "keras python", "nlp python",
+
+    # Desenvolvimento Web
+    "flask python", "django python", "rest api python", "web scraping python", "beautifulsoup python",
+
+    # Outros Tópicos
+    "testes unitários python", "depuração python", "versionamento de código python", "git python", "docker python",
+    "programação concorrente python", "programação assíncrona python", "design patterns python", "algoritmos python", "estrutura de dados python"
 ]
 
 # Define a quantidade de vezes que o loop de pesquisa será executado
